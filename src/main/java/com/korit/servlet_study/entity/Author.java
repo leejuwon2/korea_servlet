@@ -1,4 +1,5 @@
 package com.korit.servlet_study.entity;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -8,9 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-
 public class Author {
-    private int autherId;
-    private String autherName;
+    private int authorId;
+    private String authorName;
 }
-
